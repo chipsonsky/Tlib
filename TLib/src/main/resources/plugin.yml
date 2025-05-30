@@ -1,0 +1,7 @@
+name: TLib
+version: '1.0'
+main: chipsonsky.tLib.TLib
+api-version: '1.18'
+authors: [ chipsonsky ]
+description: The necessary library for Trident Studio plugins
+website: ru.chipsonsky
