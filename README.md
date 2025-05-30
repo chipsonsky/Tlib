@@ -2,22 +2,6 @@
 
 **TLib** — это небольшая утилитарная библиотека для Spigot/Paper-плагинов, созданная для упрощения работы с предметами и головами игроков.
 
-```xml
-<repositories>
-    <repository>
-        <id>jitpack.io</id>
-        <url>https://jitpack.io</url>
-    </repository>
-</repositories>
-
-<dependency>
-    <groupId>com.github.chipsonsky</groupId>
-    <artifactId>Tlib</artifactId>
-    <version>v1.0.0</version>
-</dependency>
-
-```
-
 ---
 
 ## 📚 Возможности
@@ -37,3 +21,17 @@
 ## 🔧 Подключение через Maven (через JitPack)
 
 ### 1. Добавьте репозиторий JitPack в ваш `pom.xml`:
+
+```xml
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+
+<dependency>
+    <groupId>com.github.chipsonsky</groupId>
+    <artifactId>Tlib</artifactId>
+    <version>v1.0.0</version>
+</dependency>
+
+```
