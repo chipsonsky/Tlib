@@ -54,6 +54,14 @@ public class HeadBuilder {
         return this;
     }
 
+    public HeadBuilder setBase64Texture(String value) {
+        final PlayerProfile profile = Bukkit.createProfile(UUID.randomUUID());
+
+        profile.setProperty(new ProfileProperty("textures", value));
+
+        return this;
+    }
+
     public HeadBuilder setPersistentValue(String key, PersistentDataType type, Object value) {
 
         meta.getPersistentDataContainer().set(NamespacedKey.fromString(key), type, value);
