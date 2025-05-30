@@ -23,15 +23,15 @@
 ### 1. Добавьте репозиторий JitPack в ваш `pom.xml`:
 
 ```xml
-    <repository>
-        <id>jitpack.io</id>
-        <url>https://jitpack.io</url>
-    </repository>
-
+<repository>
+    <id>jitpack.io</id>
+    <url>https://jitpack.io</url>
+</repository>
+```
+```xml
 <dependency>
     <groupId>com.github.chipsonsky</groupId>
     <artifactId>Tlib</artifactId>
     <version>v1.0.0</version>
 </dependency>
-
 ```
