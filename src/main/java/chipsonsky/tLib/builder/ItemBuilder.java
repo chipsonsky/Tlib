@@ -110,12 +110,6 @@ public class ItemBuilder {
         return this;
     }
 
-    public ItemBuilder removeEnchantment(Enchantment value) {
-        meta.removeEnchant(value);
-
-        return this;
-    }
-
     public ItemBuilder addFlag(ItemFlag flag) {
         meta.addItemFlags(flag);
 
